@@ -1,0 +1,272 @@
+Footer {
+    Text-align: center;
+}
+h2{
+    color: darkred;
+    font-size: 100px;
+    text-align: center;
+}
+
+.Pic1{
+width: 500vw;
+height: auto;
+display: flex;
+padding: 50px 15px 15px;
+border-radius: 50%;
+}
+.head{
+ text-align :center;
+ font-size: 30px;
+ 
+}
+.Im {
+  text-align: center;
+  font-size:50px;
+}
+
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 100px 0px;
+    background-color: Black;
+}
+
+body h1{
+  padding:100px 25px px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
+/* Burger Menu (for smaller screens) */
+.burger {
+    display: none; /* Hide the burger menu by default */
+    cursor: pointer;
+}
+
+.burger .line {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: transform 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .nav-links {
+        display: none; /* Hide the navigation links */
+    }
+
+    .burger {
+        display: block; /* Show the burger menu */
+    }
+
+    .nav-links.active {
+        display: block; /* Show the navigation links when the burger is clicked */
+        position: absolute;
+        top: 60px; /* Adjust position as needed */
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+    }
+
+    .nav-links.active li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Burger Menu Animation */
+.burger.active .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger.active .line:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.active .line:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.Pic1{
+width: 350px;
+height: auto;
+display: flex;
+padding: 25px 25px 10px;
+border-radius: 50%;
+}
+.Head{
+ text-align :center;
+ color: darkred;
+ 
+}
+.Im {
+  color: red;
+  text-align: center;
+  font-size:50px;
+  padding: 50px 50px 0px;
+}
+ p {
+padding: 50px 25pxpx 0px;
+color: whitesmoke;
+text-align: left;
+font-size: 70px;
+}
+
+/* About*/
+.Head2{
+  color: darkred;
+  text-align: center;
+  font-size: 50px;
+}
+
+P {
+    color: rgb(247, 247, 247);
+    text-align: center;
+    font-size: x-large;
+  }
+
+/* Hero Section */
+.hero {
+    background-color: #000000;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 60px; /* Space for the fixed navigation */
+}
+
+.hero-text {
+    margin-bottom: 30px;
+}
+
+.hero-text h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #000000;
+}
+
+/* My Work Section */
+.work {
+    background-color: #000000;
+    padding: 40px 0;
+}
+
+.work h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.work p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Project Gallery */
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden; /* Hide any content that overflows */
+}
+
+.project img {
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    object-fit: cover; /* Ensure image fills the container */
+}
+
+.project h3 {
+    padding: 15px;
+    background-color: black;
+    margin: 0;
+    color: red;    
+}
+
+.project p {
+    padding: 15px;
+}
+
+.project .btn {
+    display: inline-block;
+    margin-top: 10px;
+
+    Footer {
+        Text-align: center;
+        font-size: 50px;
+        padding: 50px;
+    
